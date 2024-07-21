@@ -155,7 +155,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #e43c5c;
+  background-color: #07f107;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -361,7 +361,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/teste.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -429,8 +429,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #07f107;
+  border: 2px solid #07f107;
 }
 
 @media (min-width: 1024px) {
@@ -688,7 +688,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/teste2.png") center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -719,8 +719,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #07f107;
+  border: 2px solid #07f107;
 }
 
 @media (min-width: 1024px) {
@@ -757,7 +757,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #e43c5c;
+  background: #07f107;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1362,9 +1362,15 @@ section {
 }
 
 .blog .entry .entry-img {
-  max-height: 440px;
+  max-height: 500px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
+}
+
+.blog .entry .entry-img img{
+  width: 100%;
+  height: 600px;
+  
 }
 
 .blog .entry .entry-title {
