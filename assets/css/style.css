@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e43c5c;
+  background: #000000;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e9607a;
+  background: #07f107;
   color: #fff;
 }
 
@@ -551,6 +551,8 @@ section {
   
 }
 
+
+
 .about .content .btn-learn-more {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
@@ -783,7 +785,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #e43c5c;
+  background: #000000;
   padding: 15px 20px;
 }
 
@@ -805,13 +807,14 @@ section {
   right: 50px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: white;
+  color: #07f107;
   transition: ease-in-out 0.3s;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #f7c2cc;
+  background-color: #07f107;
+  color: white;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -827,6 +830,24 @@ section {
   bottom: 0;
 }
 
+.portfolio .portfolio-item .portfolio-info .btn-learn-more{
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+  
+  color: #07f107;
+  background-color: #fffbfb;
+  
+  border: 2px solid #07f107;
+
+
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1029,13 +1050,13 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #e43c5c;
+  font-family: #07f107;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #d01d3f;
+  color: #07f107;
   transition: 0.3s;
 }
 
@@ -1060,7 +1081,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #e43c5c;
+  color: #07f107;
 }
 
 .faq .faq-list .collapsed .icon-show {
