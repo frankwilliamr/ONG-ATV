@@ -1903,7 +1903,9 @@ section {
 }
 
 #footer .footer-top .footer-contact h4 {
-  font-size: 22px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #444444;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1911,15 +1913,17 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Nunito", sans-serif;
   color: #777777;
 }
-
+#footer .footer-contact span{
+  color: #07f107;
+}
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 30px;
   font-weight: bold;
   color: #444444;
   position: relative;
@@ -1928,25 +1932,30 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  
 }
-
-#footer .footer-top .footer-links ul {
+/* Faz parte do rodapé */
+/* #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: inline-block;
+  text-align: center;
 }
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #ea6981;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1;
+  text-align: center;
 }
 
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1958,14 +1967,15 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-size: 20px;
 }
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: #e43c5c;
-}
+} */
 
-#footer .footer-newsletter {
+/* #footer .footer-newsletter {
   font-size: 15px;
 }
 
@@ -2010,19 +2020,24 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #d01d3f;
-}
+  background: #07f107;
+} */
 
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
   color: #444444;
 }
-
+#footer .credits a {
+  color: #07f107;
+}
+#footer .credits a:hover {
+  color: #000000;
+}
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e43c5c;
+  background: #000000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2035,7 +2050,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #d01d3f;
+  background: #07f107;
   color: #fff;
   text-decoration: none;
 }
