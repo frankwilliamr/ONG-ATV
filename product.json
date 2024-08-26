@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Produto 1",
+      "description": "Esta é a descrição do Produto 1.",
+      "category": "Web Design",
+      "client": "Empresa XYZ",
+      "projectDate": "01 March, 2020",
+      "projectUrl": "https://www.exemplo.com",
+      "images": [
+        "assets/img/portfolio/portfolio-details-1.jpg",
+        "assets/img/portfolio/portfolio-details-2.jpg",
+        "assets/img/portfolio/portfolio-details-3.jpg"
+      ],
+      "div1" : "col-lg-8"
+    }
+    
+  ]
+  

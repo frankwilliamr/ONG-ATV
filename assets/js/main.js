@@ -213,4 +213,68 @@
     }
   });
 
+
+
+
+  function fetchProducts(callback) {
+    fetch('product.json')
+        .then(response => response.json())
+        .then(data => callback(data))
+        .catch(error => console.error('Erro ao carregar produtos:', error));
+}
+
+function renderProductDetails(products) {
+    const container = document.getElementById('product-container');
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id');
+
+    const product = products.find(p => p.id == productId);
+
+    if (product) {
+        container.innerHTML = `
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                ${product.images.map(image => `
+                  <div class="swiper-slide">
+                    <img src="${image}" alt="">
+                  </div>
+                `).join('')}
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: ${product.category}</li>
+                <li><strong>Client</strong>: ${product.client}</li>
+                <li><strong>Project date</strong>: ${product.projectDate}</li>
+                <li><strong>Project URL</strong>: <a href="${product.projectUrl}" target="_blank">${product.projectUrl}</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>${product.name}</h2>
+              <p>${product.description}</p>
+            </div>
+          </div>
+        `;
+
+        // Inicializar o Swiper após o conteúdo ser gerado
+        new Swiper('.swiper', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+        });
+    } else {
+        container.innerHTML = '<p>Produto não encontrado!</p>';
+    }
+}
+
+// Carregar e renderizar os detalhes do produto
+fetchProducts(renderProductDetails);
+
 })()
