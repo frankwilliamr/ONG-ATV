@@ -1,18 +1,14 @@
 [
     {
       "id": 1,
-      "name": "Produto 1",
-      "description": "Esta é a descrição do Produto 1.",
-      "category": "Web Design",
-      "client": "Empresa XYZ",
-      "projectDate": "01 March, 2020",
-      "projectUrl": "https://www.exemplo.com",
-      "images": [
-        "assets/img/portfolio/portfolio-details-1.jpg",
-        "assets/img/portfolio/portfolio-details-2.jpg",
-        "assets/img/portfolio/portfolio-details-3.jpg"
-      ],
-      "div1" : "col-lg-8"
+      "name": "Projeto x",
+      "descricao": "Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat. Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque. Iusto autem itaque. Repudiandae hic quae aspernatur ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora.",
+      "descricao2": "Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui. Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea. Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.",
+      "titulo2": "titulo 2",
+      "titulo3": "titulo 3",
+      "descricao3": "texto 3",
+      "img1": "assets/img/blog/blog-1.jpg",
+      "img2": "assets/img/blog/blog-inside-post.jpg"
     }
     
   ]
